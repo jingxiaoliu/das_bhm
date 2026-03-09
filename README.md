@@ -1,12 +1,15 @@
 # Bridge Monitoring Using Existing Telecommunication Fiber-Optic Cables
 
-This repository contains scripts and data used to generate figures for our study on bridge monitoring using Distributed Acoustic Sensing (DAS) on pre existing telecom or dark fiber (Telecom as Sensors).  
+This repository contains scripts and data used to generate figures for our study on bridge monitoring using Distributed Acoustic Sensing (DAS) on pre-existing telecom or dark fiber (Telecom as Sensors).  
 
-If you use this repository, please cite the associated paper and related works.
+If you use this repository, please cite the associated paper and related works:
+>* Liu, J., Aggarwal, J., Hwang, D., Lee, J., Wu, Y., Yin, F., Li, H., Santi, P., Sohn, H., Biondi, B. and Ratti, C., 2025. Bridge Monitoring Using Existing Telecom Fiber-Optic Networks.
+>* Liu, J., Yuan, S., Luo, B., Biondi, B. and Noh, H.Y., 2023. Turning telecommunication fiber‐optic cables into distributed acoustic sensors for vibration‐based bridge health monitoring. Structural Control and Health Monitoring, 2023(1), p.3902306.
 
 ## Visualization
 
-Final figure panels are provided in the `figs/` folder in PDF format.  [oai_citation:3‡GitHub](https://github.com/jingxiaoliu/das_bhm/tree/main/figs)  
+Final figure panels are provided in the `figs/` folder in PDF format.  
+
 Jupyter notebooks in the repository reproduce the main and extended figures.
 
 ## Hardware requirements
@@ -20,7 +23,7 @@ This package is supported for Linux. It has been tested on Ubuntu Linux.
 
 ## Python Dependencies
 
-This implementation mainly depends on the following Python packages.  [oai_citation:4‡GitHub](https://github.com/jingxiaoliu/das_bhm/blob/main/utils.py)
+This implementation mainly depends on the following Python implementations.
 - numpy
 - scipy
 - matplotlib
@@ -31,7 +34,7 @@ Additional packages may be required depending on your environment and notebook e
 
 ### Data
 
-Contains data files used to generate the main and extended figures.  [oai_citation:5‡GitHub](https://github.com/jingxiaoliu/das_bhm/tree/main/data)
+Contains data files used to generate the main and extended figures. 
 - `data/fig1.npz`, `data/fig3.npz`, `data/fig4.npz`, `data/fig6.npz`
 - `data/fig3f2.csv`, `data/supfig2.csv`
 - `data/fig5_ms.npz`, `data/fig5a.npz`
@@ -43,14 +46,14 @@ Contains data files used to generate the main and extended figures.  [oai_citati
 
 ### Figs
 
-Stores exported figure panels in PDF format.  [oai_citation:6‡GitHub](https://github.com/jingxiaoliu/das_bhm/tree/main/figs)
+Stores exported figure panels in PDF format. 
 - Main figure panels, for example `fig1b.pdf`, `fig1c.pdf`, `fig4b.pdf`, `fig4c.pdf`, `fig6a.pdf`, `fig6b.pdf`, `fig6c.pdf`, `fig6d.pdf`
 - Extended figure panels, for example `extfig1d.pdf`, `extfig1e.pdf`, `extfig1f.pdf`, `extfig2d.pdf`, `extfig2e.pdf`, `extfig2f.pdf`, `extfig3c.pdf`, `extfig3d.pdf`, `extfig5a.pdf`, `extfig6a.pdf`, `extfig6b.pdf`, `extfig7a.pdf`, `extfig7b.pdf`, `extfig9.pdf`
 - Supplementary figure panel `supfig2.pdf`
 
 ### Scripts
 
-Jupyter notebooks for reproducing figures.  [oai_citation:7‡GitHub](https://github.com/jingxiaoliu/das_bhm)
+Jupyter notebooks for reproducing figures.  
 - `fig1.ipynb`
 - `fig3_subfig2.ipynb`
 - `fig4.ipynb`
@@ -66,7 +69,7 @@ Jupyter notebooks for reproducing figures.  [oai_citation:7‡GitHub](https://gi
 
 ### Modules
 
-Python utilities used by the notebooks.  [oai_citation:8‡GitHub](https://github.com/jingxiaoliu/das_bhm)
+Python utilities used by the notebooks.  
 - `utils.py`: plotting and processing helper functions used across figure notebooks
 
 ## Contact
